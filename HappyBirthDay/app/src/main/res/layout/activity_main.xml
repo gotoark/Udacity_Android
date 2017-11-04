@@ -6,14 +6,34 @@
     android:layout_height="match_parent"
     tools:context="arkthepro.com.happybirthday.MainActivity">
 
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/androidparty"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-         />
-    <ImageView
+        android:text="Happy BirthDay...!!!"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif-light"
+        android:padding="20dp"
+        />
+    <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/androidparty"/>
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="From Rajesh!"
+        android:textSize="36sp"
+        android:textColor="@android:color/white"
+        android:fontFamily="sans-serif"
+        android:padding="20dp"
+
+        />
 
 </RelativeLayout>
